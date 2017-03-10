@@ -29,7 +29,7 @@ Options are provided as environment variables to the docker container. Supported
 ### Run
 
 ```sh
-$ docker run -e S3_ADDRESS=play.minio.io:9000 -e ACCESS_KEY=Q3AM3UQ867SPQQA43P2F  -e SECRET_KEY=zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG -e ENABLE_HTTPS=1  minio/mint:alpha
+$ docker run -e S3_ADDRESS=play.minio.io:9000 -e ACCESS_KEY=Q3AM3UQ867SPQQA43P2F  -e SECRET_KEY=zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG -e ENABLE_HTTPS=1  -it minio/mint:alpha
 ```
 
 Note: With no env variables provided the tests are run on play.minio.io by default
