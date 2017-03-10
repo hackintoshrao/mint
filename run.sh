@@ -61,7 +61,7 @@ functionalTests() {
 }
 
 # call the initCheck function.
-initCheck
+# initCheck
 
 # call the sdkTests function.
 sdkTests
